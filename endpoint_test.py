@@ -1,3 +1,8 @@
+'''
+Brief:
+Simple unit tests for endpoints.
+'''
+
 import unittest
 from flask import Flask
 from flask_testing import TestCase
@@ -5,7 +10,6 @@ import psycopg2
 import endpoint as ep
 import init_db as db
 import war as war
-from flask import jsonify
 
 
 class MyFlaskAppTests(TestCase):

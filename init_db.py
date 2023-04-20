@@ -1,11 +1,17 @@
 import psycopg2
+import configparser
+
+config = configparser.ConfigParser()
+config.read('config.ini')
 
 
 def init():
         conn = psycopg2.connect(
-                host="localhost",
-                database="postgres",
-                user="noormostafa")
+                host=config.get('app', 'db_host'),
+                database=config.get('app', 'db_name'),
+                user=config.get('app', 'db_user'),
+                password= config.get('app', 'db_password')
+                )
 
         cur = conn.cursor()
 
@@ -29,4 +35,5 @@ def init():
         conn.close()
 
 
-
+if __name__ == '__main__':
+        init()

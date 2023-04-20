@@ -1,5 +1,5 @@
 
-This war simulation is implemented using a Flask localhost server and a Postgres
+This is a war simulation app implemented using a Flask localhost server and a Postgres
 server. To conifgure the database, change the variables in the config.ini file.
 
 All necessary packages are included in the requirements.txt. Run the following

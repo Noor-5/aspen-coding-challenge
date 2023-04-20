@@ -11,7 +11,7 @@ Prior to running the app, initialize the database by runnbing:
 
 To access the app, run {file name} and go to http://127.0.0.1:5000/war .
 Endpoints can be accessed with the following URLs:
-    http://127.0.0.1:5000/simulate
+    http://127.0.0.1:5000/simulate \n
     http://127.0.0.1:5000/<playerid> 
 
 Pressing the buttons in the app will call the endpoints, which can be found

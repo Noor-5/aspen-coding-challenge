@@ -11,7 +11,7 @@ Prior to running the app, initialize the database by running:
 
     $ python init_db.py
 
-To access the app, run {file name} and go to http://127.0.0.1:5000/war .
+To access the app, run app.py and go to http://127.0.0.1:5000/war .
 Endpoints can be accessed with the following URLs:
 
     http://127.0.0.1:5000/simulate 
@@ -19,7 +19,7 @@ Endpoints can be accessed with the following URLs:
     http://127.0.0.1:5000/ <playerid> 
 
 Pressing the buttons in the app will call the endpoints, which can be found
-within {file name}. The war.py file contains the war simulation code and is 
+within app.py. The war.py file contains the war simulation code and is 
 called by the endpoints. Scores are persisted in the database, but can be reset
 by pressing the reset button.
 

@@ -7,7 +7,7 @@ command to install with pip:
 
     $ pip install -r requirements.txt
 
-Prior to running the app, initialize the database by runnbing:
+Prior to running the app, initialize the database by running:
 
     $ python init_db.py
 

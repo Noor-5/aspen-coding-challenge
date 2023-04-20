@@ -4,13 +4,16 @@ server. To conifgure the database, change the variables in the config.ini file.
 
 All necessary packages are included in the requirements.txt. Run the following
 command to install with pip:
+
     $ pip install -r requirements.txt
 
 Prior to running the app, initialize the database by runnbing:
+
     $ python init_db.py
 
 To access the app, run {file name} and go to http://127.0.0.1:5000/war .
 Endpoints can be accessed with the following URLs:
+
     http://127.0.0.1:5000/simulate 
     
     http://127.0.0.1:5000/ <playerid> 
